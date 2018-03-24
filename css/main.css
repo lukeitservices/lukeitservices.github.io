@@ -1,4 +1,10 @@
-heading {
-    color: red;
-    text-align: center;
+.section {
+    padding-top: 50px;
+}
+
+.bg-luke 
+{
+  
+background-color: #00008B !important;
+
 }
