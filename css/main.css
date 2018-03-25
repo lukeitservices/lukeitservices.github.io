@@ -2,9 +2,22 @@
     padding-top: 50px;
 }
 
-.bg-luke 
-{
-  
-background-color: #00008B !important;
+.lukeIMG {
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
 
+.aboutMe {
+  max-width:300px;
+}
+
+.serviceList {
+  text-align: left !important;
+}
+
+.bg-header-footer
+{
+background-color: #7395AE !important;
 }

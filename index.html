@@ -5,13 +5,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Cafe website">
-    <meta name="keywords" content="Cafe, Farm, Food, Family Friendly">
+    <meta name="description" content="lukeitservices website">
+    <meta name="keywords" content="lukeitservices, pc repair, home visits, callouts, friendly, reliable">
     <meta name="author" content="Doug Edwards">
 
     <link rel="shortcut icon" href="img/favicon-32x32.png" />
 
-    <title>Lukes Site</title>
+    <title>lukeitservices</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +23,10 @@
 
   </head>
 
-<body>
+<body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-header-footer fixed-top">
+  <a class="navbar-brand" href="#">lukeitservices</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,93 +34,74 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#AboutMe" id="AboutMeLink">About me <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="#Services" id="ServicesLink">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="#Contact" id="ContactLink">Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
-<!--
-    <!-- Navigation 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-luke fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#Home" id="HomeLink">Luke IT Services</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="resources/events.pdf" target="_blank">Services</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="#Open" id="OpenLink">Opening Hours</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact" id="ContactLink">Contact</a>
-            </li>
-          </ul>
+<section class="py-5" id="AboutMe">
+  <div class="container-fluid">
+  <div class="col-md-auto text-center">
+  <h3 style="padding-top: 25px;">About me:</h3>
+  <p>Hi I am Luke I have been providing IT repair services in Bath for over 10 years.
+    I take pride in providing a friendly personal service at a responable price.
+    So whatever your IT needs please get in touch.
+  </p>
+  <img class="center-block lukeIMG" src="img/luke.jpg" alt="">
+  </div>
+  </div>
+</section>
+
+    <section class="py-2" id="Services">
+      <div class="container-fluid text-center">
+      <h3>Services:</h3>
+      <div class="d-flex justify-content-center">
+      <ul class="serviceList list-group">
+        <li>On-site repair or collection</li>
+        <li>PC or laptop repair</li>
+        <li>Tuition</li>
+        <li>Virus removal and prevention</li>
+        <li>System re-format</li>
+        <li>Data backup and recovery</li>
+        <li>Computer disposal</li>
+        <li>Computer supply and set-up</li>
+        <li>Hardware & software update</li>
+        <li>Home and office support</li>
         </div>
-      </div>
-    </nav>
--->
-    
-    <section class="py-5" id="Services">
-      <div class="container-fluid">
-      <div class="text-center">
-      <h3 style="padding-top: 25px;">Services:</h3>
-      <ul class="list-inline">
-	<li>Supply and install new systems</li>
-	<li>Pc repair</li>
-	<li>...</li>
-      </div>
       </div>
     </section>
 
 
-    <section class="py-5" id="Contact">
+    <section class="py-2" id="Contact">
       <div class="container-fluid">
       <div class="text-center">
       <h3>Contact:</h3>
       <p class="lead">Tel: 07923699428</p>
-      <p class="lead">Email: lukeitservices@gmail.com</p>
+      <p class="lead">Email:
+      <a href="mailto:lukeitservices@gmail.com?Subject=PC%20Repair%20Enquiry" target="_top">lukeitservices@gmail.com</a>
+      </p>
       </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-5 bg-light">
+    <footer class="py-2 bg-header-footer">
       <div class="container">
         <p class="m-0 text-center text-black">Copyright &copy; lukeitservices 2018</p>
       </div>
       <!-- /.container -->
     </footer>
-	
+
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	
+
 	<script>
     $("#ContactLink").click(function() {
     $('html, body').animate({
@@ -127,6 +110,21 @@
 });
 </script>
 
+<script>
+  $("#ServicesLink").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#Services").offset().top -20
+  }, 1000);
+});
+</script>
+
+<script>
+  $("#AboutMeLink").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#AboutMe").offset().top -15
+  }, 1000);
+});
+</script>
 
 </body>
 </html>
