@@ -15,7 +15,7 @@
 
 .contact-modal {
   height: 80%;
-  width: 80%;
+  width: 600px !important;
 }
 
 .serviceList {
