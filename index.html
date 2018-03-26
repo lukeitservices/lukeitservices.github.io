@@ -25,7 +25,7 @@
 
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-header-footer fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-header-footer">
   <a class="navbar-brand" href="#">lukeitservices</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -82,11 +82,32 @@
     <section class="py-2" id="Contact">
       <div class="container-fluid">
       <div class="text-center">
-      <h3>Contact:</h3>
-      <p class="lead">Tel: 07923699428</p>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Contact Me:
+        </button>
+      <!--<h3>Contact:</h3>-->
+      <p class="py-2 lead">Tel: 07923699428</p>
       <p class="lead">Email:
       <a href="mailto:lukeitservices@gmail.com?Subject=PC%20Repair%20Enquiry" target="_top">lukeitservices@gmail.com</a>
       </p>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+            </div>
+            <div class="">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd_RxH3c-tAsQQtwArM1GgKySyZ9YZr_tuwSXXX5d3Vv5KRzQ/viewform?embedded=true" width="90%" height="600" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
       </div>
       </div>
     </section>

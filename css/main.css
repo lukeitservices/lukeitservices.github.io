@@ -13,6 +13,11 @@
   max-width:300px;
 }
 
+.contact-modal {
+  height: 80%;
+  width: 80%;
+}
+
 .serviceList {
   text-align: left !important;
 }
